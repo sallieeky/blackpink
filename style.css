@@ -1,0 +1,131 @@
+body {
+    color: pink;
+    background-color: black;
+    position: relative;
+}
+
+.container {
+    margin: auto;
+    width: 75%;
+    background-color: black;
+}
+
+.container .title {
+    margin: auto;
+    width: 50%;
+    height: 10em;
+    background-image: url('image/logo-bp.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container ul {
+    text-align: center;
+}
+
+.container ul li {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: pink;
+    border-radius: 10px;
+}
+
+.container ul li a {
+    display: block;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.container ul li a:hover, footer a:hover {
+    color: rgb(134, 84, 84);
+}
+.container ul li a:active, footer a:active {
+    color: rgb(221, 109, 109)
+}
+
+
+.container .member {
+    border: 5px solid pink;
+    border-radius: 5px;
+}
+
+.container h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+hr {
+    width: 30%;
+    border: 2px solid pink;
+    margin: 10px auto;
+}
+
+p {
+    text-align: justify;
+}
+
+.table {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.table tbody td:last-child {
+    text-align: left;
+    vertical-align: middle;
+    font-size: larger;
+    list-style: none;
+}
+
+.table tbody td:first-child {
+    vertical-align: middle;
+    font-size: larger;
+}
+
+.table, .table thead{
+    color: pink;
+}
+
+.table img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.video {
+    width: 20%;
+}
+
+.footer {
+    height: 100px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: pink;
+    height: 50px;
+    left: 12.5%;
+    right: 12.5%;
+}
+
+footer p, footer a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    line-height: 50px;
+}
+
+footer p a {
+    color: pink;
+    padding: 5px 25px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+}
