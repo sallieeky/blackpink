@@ -10,14 +10,24 @@ body {
     background-color: black;
 }
 
-.container .title {
+
+.container img {
+    border-radius: 20px;
+}
+
+.title-image {
+    width: 100%;
+    margin: -100px 0;
+}
+
+/* .container .title {
     margin: auto;
     width: 50%;
     height: 10em;
     background-image: url('image/logo-bp.jpg');
     background-position: center;
     background-size: cover;
-}
+} */
 
 .container ul {
     text-align: center;
